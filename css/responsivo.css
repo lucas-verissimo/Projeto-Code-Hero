@@ -1,0 +1,60 @@
+@media screen and (max-width: 420px) {
+    /* Header */
+    .box {
+        display: flex;
+        justify-content: space-between;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px !important;
+    }
+
+    .box img {
+        margin: 0;
+        max-height: 21px;
+        align-self: center;
+    }
+    
+    .box h2 {
+        font-size: 15px !important;
+        position: static !important;
+        text-align: right;
+    }
+
+    .box h2 strong {
+        display: block;
+    }
+
+    /* Main */
+    main {
+        text-align: center;
+    }
+
+    /* Página detalhes do personagem */
+    #contents {
+        display: block;
+    }
+
+    #contents section {
+        width: calc(100% - 30px);
+    }
+
+    /* Página principal */
+    #search {
+        margin: 10px auto;
+    }
+
+    #titulos h2,
+    .herois div {
+        width: calc(100% - 20px);
+        text-align: left;
+    }
+
+    #titulos :nth-child(n+2),
+    .herois div:nth-child(n+2) {
+        display: none;
+    }
+
+    .herois, .hero-name {
+        width: calc(100% - 20px) !important;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Teste Front-end Marvel</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <img src="img/logo_objective.png" alt="Logo da Objective">
+            <h2><strong>Lucas Veríssimo C. dos Santos</strong> Teste de Front-end</h2>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="home">
+            <div id="search-characters">
+                <h2>Busca de personagens</h2>
+                <label for="txtSearch">Nome do personagem</label>
+                <div id="search">
+                    <input type="text" id="txtSearch" placeholder="Search"/>
+                    <p onclick="searchClick()">&#128269;</p>
+                </div>
+            </div>
+    
+            <div id="titulos" class="flex">
+                <h2>Personagem</h2>
+                <h2>Series</h2>
+                <h2>Eventos</h2>
+            </div>
+    
+            <div id="renderer">
+                <div id="RendererPage"></div>
+            </div>
+    
+            <div id="category">
+                <ul>
+                    <li onclick="updateURL('1')">&lt;&lt;</li>
+                    <li id="1">1</li>
+                    <li id="2">2</li>
+                    <li id="3">3</li>
+                    <li id="4">4</li>
+                    <li id="5">5</li>
+                    <li onclick="updateURL(last_button)">&gt;&gt;</li>
+                </ul>
+            </div>
+           
+        </div>
+
+        <div id="detalhes">
+            <div id="header-detalhes">
+                <input type="button" value="X" id="exit" onclick="closeDetalhes()">
+                <img src="" alt="Imagem Herói" id="img-hero-detalhes">
+                <h1 id="name-hero-detalhes"></h1>
+                <p>&copy; 2021 MARVEL</p>
+            </div>
+            <div id="dados-detalhes">
+                <div id="contents">
+                    <section id="series-detalhes"></section>
+                    <section id="eventos-detalhes"></section>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+  
+    <script src="js/md5.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+    
+    <script>
+        
+    </script>
+</body>
+</html>

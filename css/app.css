@@ -1,0 +1,20 @@
+#category ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+    align-items: center;
+    margin-top: 10px;
+}
+
+#category ul li {
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    background-color: #fffafa;
+    margin: 3px;
+    cursor: pointer;
+    text-align: center;
+}
