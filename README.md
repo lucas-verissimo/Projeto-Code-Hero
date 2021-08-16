@@ -1,6 +1,6 @@
 # Projeto-Code-Hero
  Desafio Objective, Single Page Application API Marvel
- O aplicativo está disponível no endereço: lucas-verissimo.github.io/Projeto-Code-Hero/
+ O aplicativo está disponível no endereço: https://lucas-verissimo.github.io/Projeto-Code-Hero
  
 # Tela Principal
  A tela principal apresenta os personagens da Marvel em ordem alfabética. Tem a opção de busca por nome e quando um personagem é clicado, abre uma tela de detalhes.
