@@ -73,7 +73,11 @@ function changeButton(currentPath, numPages) {
         for (var i = 1; i < 6; i++) {
             var button = document.getElementById(i)
             button.style.display = 'list-item' // Caso o display tenha sido mudado para "none"
-            button.innerText = `${currentPath - (4 - i)}`
+            if(currentPath - (4 - i) > 0) {
+                button.innerText = `${currentPath - (4 - i)}`
+            } else {
+                button.style.display = 'none'
+            }
             button.style.backgroundColor = '#fffafa'
             button.style.color = '#000000'
         }
@@ -83,7 +87,11 @@ function changeButton(currentPath, numPages) {
         for (var i = 1; i < 6; i++) {
             var button = document.getElementById(i)
             button.style.display = 'list-item' // Caso o display tenha sido mudado para "none"
-            button.innerText = `${currentPath - (5 - i)}`
+            if(currentPath - (5 - i) > 0) {
+                button.innerText = `${currentPath - (5 - i)}`
+            } else {
+                button.style.display = 'none'
+            }
             button.style.backgroundColor = '#fffafa'
             button.style.color = '#000000'
         }
